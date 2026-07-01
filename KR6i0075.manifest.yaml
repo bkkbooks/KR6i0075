@@ -1,0 +1,212 @@
+canonical_identifier: bkk:krp/KR6i0075/v1
+canonical_location: https://kanripo.org/bkk/KR6i0075/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說維摩詰經
+  identifiers:
+    alt_id:
+    - T14n0474
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0474.xml
+    old_id: T14n0474
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 思溪-CB
+  label: 思溪-CB
+  source_xml_id: wit7
+- short: 嘉興乙-CB
+  label: 嘉興乙-CB
+  source_xml_id: wit8
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0075_000.yaml, hash: 'sha256:5d6d2e6555f7ef5a36e2c0cf4068264353657c6cc06d3087ba2728464b1483c0'}
+  - {seq: 1, filename: KR6i0075_001.yaml, hash: 'sha256:7e528088106b5d2129a850217e160fe0c63d1e412b325eecfd311a149e0c8c4a'}
+  - {seq: 2, filename: KR6i0075_002.yaml, hash: 'sha256:4cfd3dce58395b206871765270a524dac1a8790a90ec9f7c12665fd8590bea1d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0075_001.markers.yaml, hash: 'sha256:c367303c25155ea879e7c5bafe07f5ce702ce51606db98d5ce82327a932f9142'}
+  - {seq: 2, role: markers, filename: assets/KR6i0075_002.markers.yaml, hash: 'sha256:35faba72e4662b4e3190e4fac0f1b686f0ebfaf7c04da06a22ee6ea88fd23db3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 12874
+  label: 佛說維摩詰經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 1 佛國品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-2
+    span:
+    - body
+    - 2605
+    - 2605
+  label: 2 善權品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-3
+    span:
+    - body
+    - 3649
+    - 3649
+  label: 3 弟子品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-4
+    span:
+    - body
+    - 6720
+    - 6720
+  label: 4 菩薩品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-5
+    span:
+    - body
+    - 9189
+    - 9189
+  label: 5 諸法言品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0075_T_001-mulu-6
+    span:
+    - body
+    - 11601
+    - 11601
+  label: 6 不思議品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 12029
+  label: 維摩詰經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 7 觀人物品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-2
+    span:
+    - body
+    - 2016
+    - 2016
+  label: 8 如來種品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-3
+    span:
+    - body
+    - 3544
+    - 3544
+  label: 9 不二入品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-4
+    span:
+    - body
+    - 4957
+    - 4957
+  label: 10 香積佛品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-5
+    span:
+    - body
+    - 6543
+    - 6543
+  label: 11 菩薩行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-6
+    span:
+    - body
+    - 8564
+    - 8564
+  label: 12 見阿閦佛品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-7
+    span:
+    - body
+    - 9911
+    - 9911
+  label: 13 法供養品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0075_T_002-mulu-8
+    span:
+    - body
+    - 11333
+    - 11333
+  label: 14 囑累彌勒品
+  type: mulu
+  level: 1
+hash: sha256:5fdc4e29c21857b3e5470fbadb2b5f8cb0da84124a99d3201c523367f0fb8f91
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
